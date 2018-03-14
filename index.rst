@@ -21,9 +21,5 @@ Welcome to OpenStudio's documentation!
     quickstart
     man_customers_subscriptions_credits
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+More coming soon (hopefully)!
