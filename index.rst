@@ -15,7 +15,7 @@ Welcome to OpenStudio's documentation!
     installation
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
     :caption: Manual
 
     quickstart
