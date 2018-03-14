@@ -1,4 +1,4 @@
 Installation
 =============
 
-Test page
+Coming soon!
