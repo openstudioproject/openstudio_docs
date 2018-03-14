@@ -9,7 +9,7 @@ Welcome to OpenStudio's documentation!
 
 .. toctree::
     :maxdepth: 1
-    :caption: Install
+    :caption: Installation
 
     requirements
     installation
@@ -20,6 +20,12 @@ Welcome to OpenStudio's documentation!
 
     quickstart
     man_customers_subscriptions_credits
+
+.. toctree::
+    :maxdepth: 2
+    :caption: API specification
+
+    api_v1
 
 
 More coming soon (hopefully)!
