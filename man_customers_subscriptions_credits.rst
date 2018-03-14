@@ -1,7 +1,7 @@
 Manage subscription credits
 ===========================
 
-This page describes how to manage credits for customers subscriptions.
+This page describes how to manage credits for customers subscriptions. One subscription credit equals access to one class. 
 
 Configuring school subscriptions
 --------------------------------
