@@ -26,17 +26,21 @@ The following fields for a school subscription define credit behavior
 
 Adding credits for all subscriptions
 ------------------------------------
-After settings the fields above for all appropriate subscriptions under school and adding subscriptions to customers, it's possible to add credits to all subscriptions in one go.
+After settings the fields above for all appropriate subscriptions under school and adding subscriptions to customers, it's possible to add credits to all subscriptions for the selected month in one go.
 
-Go to customers in the main menu, click the button with the wrench icon and then *Subscription credits*.
-After choosing the month for which credits should be added, click the *Add* button in the top right and choose *Continue*. This operation might take a few minutes, when there are a few hundred (or more) subscriptions.
-
-
-Credit mutations for a single subscription
-------------------------------------------
+Go to customers in the main menu, click the button with the wrench icon and then *Subscription credits*. Select the tab *Added credits*. After choosing the month for which credits should be added, click the *Add* button in the top right and choose *Continue*. This operation might take a few minutes, when there are a few hundred (or more) subscriptions.
 
 
 Expiring credits
 ----------------
+
+
+
+Credit mutations for a single subscription
+------------------------------------------
+Go to customers - subscriptions - edit a subscription - go to the credits tab. Here you can add credit mutations by using the add button.
+
+
+
 
 
