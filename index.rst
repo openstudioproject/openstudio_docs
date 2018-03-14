@@ -11,7 +11,7 @@ Welcome to OpenStudio's documentation!
     :maxdepth: 1
     :caption: Installation
 
-    requirements
+    prerequisites
     installation
 
 .. toctree::
