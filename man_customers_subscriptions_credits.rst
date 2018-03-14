@@ -21,7 +21,7 @@ The following fields for a school subscription define credit behavior
     Looking at a whole year, customers will get enough credits, but might have a temporary shortage depending on the number of Mondays, Thuesdays, etc. in a month. 
 
 **Credits validity (days)**
-    Number of days subscription credits will be valid. 
+    Number of days subscription credits will be valid. Think of it like the minutes on your phone subscription, when they're not used within a certain period, they expire and can no longer be used.
 
 
 Adding credits for all subscriptions
@@ -33,12 +33,13 @@ Go to customers in the main menu, click the button with the wrench icon and then
 
 Expiring credits
 ----------------
-
+When *Credits validity* is set for one or more school subscriptions, you can expire credits. 
+Go to customers in the main menu, click the button with the wrench icon and then *Subscription credits*. Select the tab *Expired credits*. Click the *Expire* button in the top right of the page to remove all expired credits from all subscriptions.
 
 
 Credit mutations for a single subscription
 ------------------------------------------
-Go to customers - subscriptions - edit a subscription - go to the credits tab. Here you can add credit mutations by using the add button.
+Go to customers - subscriptions - edit a subscription - go to the credits tab. Here you can add credit mutations (add and subtract) by using the add button.
 
 
 
