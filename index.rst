@@ -14,6 +14,7 @@ Welcome to OpenStudio's documentation!
     prerequisites
     web2py_versions
     installation
+    update
 
 .. toctree::
     :maxdepth: 1
@@ -27,6 +28,12 @@ Welcome to OpenStudio's documentation!
     :caption: API specification
 
     api_v1
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Licence & disclaimer
+
+    license_disclaimer
 
 
 More coming soon (hopefully)!
