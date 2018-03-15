@@ -12,6 +12,7 @@ Welcome to OpenStudio's documentation!
     :caption: Installation
 
     prerequisites
+    web2py_versions
     installation
 
 .. toctree::
