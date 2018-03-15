@@ -1,4 +1,9 @@
 API Specification
 =================
 
-Coming soon!
+.. toctree::
+    :maxdepth: 2
+    :caption: API specification
+
+    api_v1/about
+    api_v1/schedule_get
