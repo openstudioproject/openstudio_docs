@@ -67,9 +67,10 @@ Windows
     
     c:\python27\python.exe web2py.py -a <choose a password>
 
-Open a web browser and browse to http://localhost:8000, click on the administrative interface button and login using the password you entered after the -a option when starting web2py. On the right scroll down to "Upload and install packed application". First enter "OpenStudio" in the application name field. Under "Upload a package" click Choose file. Browse to the directory where you downloaded the OpenStudio app and select it. Then click the install button.
 
-Now you should have OpenStudio in the list of Installed applications on the left of the page. Click the manage button next to OpenStudio and select Edit from the drop down list that appears. In the models section of the edit page, click Edit to the left of appconig.ini under private. Here is a line that needs to be edited. 
+Extract the OpenStudio release archive (zip or tar.gz) to the applications folder in your web2py installation.
+
+Open a web browser and browse to http://localhost:8000, now you should have OpenStudio in the list of Installed applications on the left of the page. Click the manage button next to OpenStudio and select Edit from the drop down list that appears. In the models section of the edit page, click Edit to the left of appconig.ini under private. Here is a line that needs to be edited. 
 
 .. code:: 
 

@@ -25,7 +25,7 @@ Welcome to OpenStudio's documentation!
 
 .. toctree::
     :maxdepth: 2
-    :caption: API specification
+    :caption: API 
 
     api_v1
 
