@@ -20,8 +20,9 @@ Welcome to OpenStudio's documentation!
     :maxdepth: 1
     :caption: Manual
 
-    quickstart
-    man_customers_subscriptions_credits
+    manual/quickstart
+    manual/customers_subscriptions_credits
+    manual/access_classes
 
 .. toctree::
     :maxdepth: 2
