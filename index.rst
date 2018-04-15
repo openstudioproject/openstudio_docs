@@ -37,4 +37,4 @@ Welcome to OpenStudio's documentation!
     license_disclaimer
 
 
-More coming soon (hopefully)!
+More coming soon!
