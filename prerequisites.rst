@@ -17,3 +17,5 @@ Prerequisites
 * mollie-api-python
 * weasyprint
 * Pillow
+* qrcode
+* mailchimp3
