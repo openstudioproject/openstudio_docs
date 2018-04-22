@@ -25,6 +25,12 @@ Welcome to OpenStudio's documentation!
     manual/access_classes
 
 .. toctree::
+    :maxdepth: 1
+    :caption: Integration
+
+    integration/mailchimp
+
+.. toctree::
     :maxdepth: 2
     :caption: API 
 
