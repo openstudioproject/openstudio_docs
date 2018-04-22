@@ -38,6 +38,15 @@ Welcome to OpenStudio's documentation!
 
 .. toctree::
     :maxdepth: 1
+    :caption: GDPR complaince
+
+    gdpr_compliance/right_of_consent
+    gdpr_compliance/right_to_access
+    gdpr_compliance/right_to_be_forgotten
+
+
+.. toctree::
+    :maxdepth: 1
     :caption: Licence & disclaimer
 
     license_disclaimer
