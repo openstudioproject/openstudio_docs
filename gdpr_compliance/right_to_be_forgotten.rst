@@ -6,13 +6,15 @@ Under the new regulations businesses based in the EU no longer have the right to
 As a general assumption in the case of OpenStudio, personal data no longer relevant can be defined as data of customers who have had no activity in or dealings with your businesses after a given date.
 To assist in cleaning up inactive customers, a new report has been added. Using this report you can first view a list of customers without activity after a given date and then continue to remove them. 
 
+**Delete a all customers inactive after a given date**
+
 #. Go to Reports - Inactive customers
 #. Select date after which OpenStudio is to check for customer activity
 #. Run report
 #. When ready to delete customer data, click the red "Delete customers" button
 
 
-To delete a single customer
+**Delete a single customer**
 
 #. Go to Customers 
 #. Click the delete button next the the customer to be deleted
