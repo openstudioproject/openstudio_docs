@@ -33,8 +33,9 @@ Create credit invoices
 
 Go to Finance - Teacher payments and click the *Create invoices* button. Select the month for which invoices are to be created and click the *Create invoices* button.
 A credit invoice will be created for all teachers matching the following conditions,
-* Has taught classes in the selected month
-* A default rate has been set
+
+- Has taught classes in the selected month
+- A default rate has been set
 
 *Note: When a credit invoice is already found for a teacher, no new invoice will be created. This means this function can be used safely as many times as required for a month, without any existing invoices being overwritten*
 
