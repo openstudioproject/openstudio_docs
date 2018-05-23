@@ -6,7 +6,6 @@
 Welcome to OpenStudio's documentation!
 ===========================================
 
-
 .. toctree::
     :maxdepth: 1
     :caption: Installation
@@ -23,6 +22,7 @@ Welcome to OpenStudio's documentation!
     manual/quickstart
     manual/customers_subscriptions_credits
     manual/access_classes
+    manual/teacher_payments
 
 .. toctree::
     :maxdepth: 1
