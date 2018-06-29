@@ -91,8 +91,8 @@ Type String:
     LinkThumbSmall
         URL to small thumbnail for class (50px*50px)
 
-2.The following data is provided for teachers:
-----------------------------------------------
+2. The following data is provided for teachers:
+-----------------------------------------------
 
 Type String:
     Id
@@ -115,7 +115,7 @@ Type String:
     Name
         Name of location
 
-4.The following data is provided for a class:
+4. The following data is provided for a class:
 ----------------------------------------------
 
 Type String:
