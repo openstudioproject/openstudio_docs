@@ -4,8 +4,8 @@ schedule_get
 
 The schedule API is a one way API that allows you to get information from the class schedule in OpenStudio.
 
-get call:
-=========
+1.get call:
+============
 Calls can be made as JSON and as XML. Both return the same data, just formatted according to the call you
 make.
 
@@ -56,8 +56,8 @@ Example calls:
     https://<hosting location>/api/schedule_get.xml?user=test&key=test&week=1&year=2014&TeacherID=1&ClassTypeID=1
 
 
-Return:
-========
+2.Return:
+=========
 
 The global structure for the returned values is as follows. The actual values returned differ slightly
 depending on whether called as XML or JSON.

@@ -46,13 +46,15 @@ SortBy
     time: Sort by time and then location
     
 1.3. Example Calls:
+---------------------
 
  .. code-block:: bash
 
     https:///api/schedule_get_days.xml?user=test&key=test&date_start=2016-01-01&date_end=2016-01-06
 
     https:///api/schedule_get_days.xml?user=test&key=test&date_start=2016-01-01&date_end=2016-01-06&TeacherID=1&ClassTypeID=1
-1.2. Return:
+
+2. Return:
 =============
 
 The global structure for the returned values is as follows. The actual values returned differ slightly
@@ -63,13 +65,13 @@ data (top level) (dict)
         date (yyyy-mm-dd)
         
         classes :sup:`1`
-    classtypes (list):sup:`2`
+    classtypes (list) :sup:`2`
 
-    teachers (list):sup:`3`
+    teachers (list) :sup:`3`
 
-    locations (list):sup:`4`
+    locations (list) :sup:`4`
 
-    levels (list):sup:`5`
+    levels (list) :sup:`5`
 
 1.The following data is provided for a class:
 ----------------------------------------------
