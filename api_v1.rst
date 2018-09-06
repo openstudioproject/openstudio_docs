@@ -10,3 +10,5 @@ API Specification
     api_v1/3_schedule_get_days
     api_v1/4_Workshops_Get
     api_v1/5_Workshop_get
+    api_v1/6_School_Subscriptions_Get
+    api_v1/7_School_Classcards_Get

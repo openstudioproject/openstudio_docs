@@ -2,7 +2,7 @@
 schedule_get
 ============
 
-The schedule API is a one way API that allows you to get information from the class schedule in OpenStudio.
+    The schedule API is a one way API that allows you to get information from the class schedule in OpenStudio.
 
 1.get call:
 ============

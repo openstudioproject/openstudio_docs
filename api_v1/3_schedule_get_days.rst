@@ -2,7 +2,7 @@
 Schedule_Get_Days
 =================
 
-The schedule API is a one way API that allows you to get information from the schedule in OpenStudio. This chapter described the schedule_get_days endpoint which allows you get get schedule information in a selected range of dates.
+    The schedule API is a one way API that allows you to get information from the schedule in OpenStudio. This chapter described the schedule_get_days endpoint which allows you get get schedule information in a selected range of dates.
 
 1. Get Call:
 ============

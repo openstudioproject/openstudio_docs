@@ -43,8 +43,8 @@ Workshop_Get
     data (top level) (list)
         workshop :sup:`1`
     
-1.The following data is provided for a workshop:
-------------------------------------------------
+1. The following data is provided for a workshop:
+-------------------------------------------------
 
     Activities :sup:`3`
         [List] List of activities for workshop, sorted by date and then time
@@ -94,7 +94,7 @@ Workshop_Get
     Teacher2 :sup:`2`
         [Dict] Dict with teacher2 info    
 
-2.Teacher fields:
+2. Teacher fields:
 ------------------
 
     Bio
