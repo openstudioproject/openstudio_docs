@@ -1,10 +1,10 @@
 =====================
-School_Classcards_Get
+school_classcards_get
 =====================
 
     Returns information from school - subscriptions
 
-1 Get Call:
+1. Call
 =============
 
     Calls can be made as JSON and as XML. Both return the same data, just formatted according to the call you
@@ -15,21 +15,21 @@ School_Classcards_Get
     XML	
         https://<hosting location>/api/school_classcards_get.xml
  
-1.1 Mandatory Variables:
+1.1 Mandatory Variables
 ------------------------
     user	
         API user
     key
         Key for API user
 
-1.2 Example Calls:
+1.2 Example Calls
 ------------------
 
     .. code-block:: bash
 
         https://<hosting location>/api/school_classcards_get.json?user=test&key=test
 
-2 Return:
+2. Return
 ==========
 
     The global structure for the returned values is as follows. The actual values returned differ slightly
@@ -38,7 +38,7 @@ School_Classcards_Get
     data (top level) (list)
         Class card1 :sup:`1`
 
-1. The following data is provided for a class card:
+1. The following data is provided for a class card
 ----------------------------------------------------
 
     Classes 

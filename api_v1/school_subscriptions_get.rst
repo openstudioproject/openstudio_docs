@@ -1,10 +1,10 @@
 =========================
-School_Subscriptions_Get
+school_subscriptions_get
 =========================
 
     Returns information from school - subscriptions
 
-1 Get Call:
+1. Call
 ===========
 
 Calls can be made as JSON and as XML. Both return the same data, just formatted according to the call you make.
@@ -16,7 +16,7 @@ Calls can be made as JSON and as XML. Both return the same data, just formatted 
         https://<hosting location>/api/schedule_get.xml
     
 
-1.1 Mandatory Variables:
+1.1 Mandatory Variables
 ------------------------
 
 user
@@ -25,7 +25,7 @@ key
     Key for API user
 
 
-1.2 Example Calls:
+1.2 Example Calls
 ------------------
 
 .. code-block:: bash
@@ -33,7 +33,7 @@ key
     https://<hosting location>/api/school_subscriptions_get.json?user=test&key=test
 
 
-2 return:
+2. Return
 =========
 
     The global structure for the returned values is as follows. The actual values returned differ slightly
@@ -42,7 +42,7 @@ key
     data (top level)(list)
         Subscriptions :sup:`1`
 
-1. The following data is provided for a subscription:
+1. The following data is provided for a subscription
 ------------------------------------------------------
 
     Classes

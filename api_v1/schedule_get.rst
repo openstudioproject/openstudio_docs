@@ -4,7 +4,7 @@ schedule_get
 
     The schedule API is a one way API that allows you to get information from the class schedule in OpenStudio.
 
-1.get call:
+1. Call
 ============
 
     Calls can be made as JSON and as XML. Both return the same data, just formatted according to the call you
@@ -15,7 +15,7 @@ schedule_get
     xml
         https://<hosting location>/api/schedule_get.json
     
-Mandatory variables:
+Mandatory variables
 ---------------------
 
     user
@@ -27,7 +27,7 @@ Mandatory variables:
     year
         year as YYYY
 
-Optional variables:
+Optional variables
 -------------------
 
     TeacherID
@@ -43,7 +43,7 @@ Optional variables:
             - **location** Sort by location and then time 
             - **time** Sort by time and then location
 
-Example calls:
+Example calls
 --------------
 
     .. code-block:: bash
@@ -51,7 +51,7 @@ Example calls:
         https://<hosting location>/api/schedule_get.json?user=test&key=test&week=1&year=2014
         https://<hosting location>/api/schedule_get.xml?user=test&key=test&week=1&year=2014&TeacherID=1&ClassTypeID=1
 
-2.Return:
+2. Return
 =========
 
     The global structure for the returned values is as follows. The actual values returned differ slightly
@@ -68,7 +68,7 @@ Example calls:
             Monday - Sunday
                 date (yyyy-mm-dd)
 
-1. The folowing data is provided for classtypes:
+1. The folowing data is provided for classtypes
 ------------------------------------------------
 
     Description
@@ -84,7 +84,7 @@ Example calls:
     Name
         [String] Name of classtype
 
-2. The following data is provided for teachers:
+2. The following data is provided for teachers
 -----------------------------------------------
 
     Bio
@@ -98,7 +98,7 @@ Example calls:
     Name
         [String] Name of teacher
 
-3. The following data is provided for locations:
+3. The following data is provided for locations
 ------------------------------------------------
 
     Id
@@ -106,7 +106,7 @@ Example calls:
     Name
         [String] Name of location
 
-4. The following data is provided for a class:
+4. The following data is provided for a class
 ----------------------------------------------
 
     BookingOpen

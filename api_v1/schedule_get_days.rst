@@ -1,10 +1,10 @@
 =================
-Schedule_Get_Days
+schedule_get_days
 =================
 
     The schedule API is a one way API that allows you to get information from the schedule in OpenStudio. This chapter described the schedule_get_days endpoint which allows you get get schedule information in a selected range of dates.
 
-1. Get Call:
+1. Call
 ============
 
     Calls can be made as JSON and as XML. Both return the same data, just formatted according to the call you
@@ -15,7 +15,7 @@ Schedule_Get_Days
     XML
         https://<hosting location>/api/schedule_get_days.xml
 
-1.1. Mandatory Variables:
+1.1. Mandatory Variables
 -------------------------
 
     user
@@ -27,7 +27,7 @@ Schedule_Get_Days
     date_end
         End of day range as yyyy-mm-dd
 
-1.2. Optional Variables:
+1.2. Optional Variables
 -------------------------
 
     TeacherID
@@ -46,7 +46,7 @@ Schedule_Get_Days
 
         time: Sort by time and then location
     
-1.3. Example Calls:
+1.3. Example Calls
 --------------------
 
     .. code-block:: bash
@@ -55,7 +55,7 @@ Schedule_Get_Days
 
         https:///api/schedule_get_days.xml?user=test&key=test&date_start=2016-01-01&date_end=2016-01-06&TeacherID=1&ClassTypeID=1
 
-2. Return:
+2. Return
 ===========
 
     The global structure for the returned values is as follows. The actual values returned differ slightly
@@ -75,7 +75,7 @@ Schedule_Get_Days
 
         levels (list) :sup:`5`
 
-1.The following data is provided for a class:
+1. The following data is provided for a class
 ----------------------------------------------
 
     BookingOpen
@@ -132,7 +132,7 @@ Schedule_Get_Days
     Teacher2
         [String] Name of second teacher (Firstname lastname)    
 
-2. The folowing data is provided for classtypes:
+2. The folowing data is provided for classtypes
 -------------------------------------------------
 
     Description
@@ -148,7 +148,7 @@ Schedule_Get_Days
     Name
         [String] Name of classtype
     
-3. The following data is provided for teachers:
+3. The following data is provided for teachers
 -----------------------------------------------
 
     Bio
@@ -162,7 +162,7 @@ Schedule_Get_Days
     Name
         [String] Name of teacher    
 
-4. The following data is provided for locations:
+4. The following data is provided for locations
 ------------------------------------------------
 
     Id
@@ -170,7 +170,7 @@ Schedule_Get_Days
     Name
         [String] Name of location
 
-5. the following data is provided for levels:
+5. the following data is provided for levels
 ---------------------------------------------
 
     Id

@@ -1,10 +1,10 @@
 =============
-Workshop_Get
+workshop_get
 =============
 
     The workshops API is a one way API that allows getting information from OpenStudio about a single workshop. Please note that the workshop has to be marked as visible in the shop in OpenStudio.
 
-1.Get Call
+1. Call
 ==========
 
     Calls can be made as JSON and as XML. Both return the same data, just formatted according to the call you
@@ -14,7 +14,7 @@ Workshop_Get
     XML
         https://<hosting location>/api/workshop_get.xml
 
-1.1. Mandatory Variables:
+1.1. Mandatory Variables
 -------------------------
 
     user
@@ -24,7 +24,7 @@ Workshop_Get
     id
         Workshop ID
     
-1.2. Example Calls:
+1.2. Example Calls
 --------------------
 
     .. code-block:: bash
@@ -34,7 +34,7 @@ Workshop_Get
         https:///api/schedule_get_days.xml?user=test&key=test&date_start=2016-01-01&date_end=2016-01-06&TeacherID=1&ClassTypeID=1
 
 
-2. Return:
+2. Return
 ==========
 
     The global structure for the returned values is as follows. The actual values returned differ slightly
@@ -43,7 +43,7 @@ Workshop_Get
     data (top level) (list)
         workshop :sup:`1`
     
-1. The following data is provided for a workshop:
+1. The following data is provided for a workshop
 -------------------------------------------------
 
     Activities :sup:`3`
@@ -94,7 +94,7 @@ Workshop_Get
     Teacher2 :sup:`2`
         [Dict] Dict with teacher2 info    
 
-2. Teacher fields:
+2. Teacher fields
 ------------------
 
     Bio
@@ -114,7 +114,7 @@ Workshop_Get
     Website
         [String] URL to teacher Website
   
-3. Activity:
+3. Activity
 -------------
 
     Date
