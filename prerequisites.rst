@@ -14,7 +14,7 @@ Prerequisites
 * html2text
 * pytz
 * redis
-* mollie-api-python
+* mollie-api-python < 2.0 (e.g. pip install -Iv mollie-api-python==1.4.2)
 * weasyprint
 * Pillow
 * pybarcode
