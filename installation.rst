@@ -98,7 +98,17 @@ The *routes.py* file can look like this for example:
 
 After adding the routes.py file in the web2py root folder, restart web2py. Make sure your DNS records or hosts file point to the correct name.
 
-Now click site in the menu at the top of the page and click on OpenStudio in the list of Installed applications. If everything went well, there will be a login screen.
+
+Scheduler
+---------
+
+Starting from version 2018.82 the Web2py Scheduler is required to use all features in OpenStudio. Please refer to the Web2py book for instructions on how to set up the scheduler: `Web2py book <http://web2py.com/books/default/chapter/29/13/deployment-recipes#Start-the-scheduler-as-a-Linux-service-upstart->`_.
+
+
+Logging in
+----------
+
+Go to the address where you're hosting OpenStudio. If everything went well, there will be a login screen.
 
 Default username and password
 The default username and password are admin and admin for versions lower than 2.05.
