@@ -8,13 +8,28 @@ Prerequisites
 * Redis server
 * Web2py (http://www.web2py.com)
 
-**Python Modules**
+
+**Python Modules v2018.82 and later**
 
 * openpyxl
 * html2text
 * pytz
 * redis
-* mollie-api-python
+* mollie-api-python (2.x)
+* weasyprint
+* Pillow
+* pybarcode
+* qrcode
+* mailchimp3
+
+
+**Python Modules v2018.81 and earlier**
+
+* openpyxl
+* html2text
+* pytz
+* redis
+* mollie-api-python 1.4.2 (not compatible with 2.x)
 * weasyprint
 * Pillow
 * pybarcode
