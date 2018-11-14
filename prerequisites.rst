@@ -16,7 +16,7 @@ Prerequisites
 * pytz
 * redis
 * mollie-api-python (2.x)
-* weasyprint
+* weasyprint (0.42.3)
 * Pillow
 * pybarcode
 * qrcode
@@ -30,7 +30,7 @@ Prerequisites
 * pytz
 * redis
 * mollie-api-python 1.4.2 (not compatible with 2.x)
-* weasyprint
+* weasyprint (0.42.3)
 * Pillow
 * pybarcode
 * qrcode
