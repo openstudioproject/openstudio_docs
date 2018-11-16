@@ -59,7 +59,7 @@ Linux and Mac OS
 
 .. code-block:: bash
 
-    bash python web2py.py -a <choose a password>
+    python web2py.py -a <choose a password>
 
 Windows
 
