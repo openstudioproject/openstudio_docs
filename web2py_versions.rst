@@ -1,4 +1,4 @@
-web2py versions
+Web2py versions
 ===============
 
 * OpenStudio 2018.82.0 - web2py 2.17.2
