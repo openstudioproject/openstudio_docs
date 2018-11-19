@@ -26,6 +26,8 @@ Hardware
 Hosting platform
 -----------------
 
+While in theory everything used to build OpenStudio should run on Windows and MacOS as well, it's only tested on Linux. 
+For a production system, this is probably the best choice.
 
 **General**
 
@@ -33,6 +35,7 @@ Hosting platform
 * MySQL 5.5 or later database
 * Redis server
 * Web2py (http://www.web2py.com)
+
 
 **Optional but recommended for a production setup**
 
