@@ -1,22 +1,26 @@
 System requirements
 ====================
 
+Please keep in mind that OpenStudio is a web application, which needs a bit more resources then a standard website. 
+
 Hardware
 -----------------
 
 **Minimum**
 
-- 2 (v)CPU cores with performance comparable to at least a second generation Intel Core i5 @ 2.0 Ghz
+- 2 (v)CPU cores* 
 - 2 GB of RAM 
 - 1 GB of free storage 
 
 
 **Recommended**
 
-- 2 (v)CPU cores with performance comparable to at least a second generation Intel Core i5 @ 2.0 Ghz
+- 2 (v)CPU cores* 
 - 4 GB of RAM
 - 10 GB of free storage
 - SSD storage
+
+\* With performance comparable to at least a second generation Intel Core i5 @ 2.0 Ghz
 
 
 Hosting platform
