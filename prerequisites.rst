@@ -1,7 +1,7 @@
 System requirements
 ====================
 
-Please keep in mind that OpenStudio is a web application, which needs a bit more resources then a standard website. 
+Please keep in mind that OpenStudio is a web application which needs more resources then a standard website. 
 
 Hardware
 -----------------
