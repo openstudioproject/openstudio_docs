@@ -1,7 +1,7 @@
 Installation
 =============
 
-This is a short guide to get OpenStudio running as quickly as possible. This setup is not recommended for production usage. For production usage you'd want to use something like nginx together with uwsgi.
+This is a short guide to get OpenStudio running as quickly as possible. This setup is not recommended for production usage. For production usage you'd want to use something like nginx together with uwsgi and make sure you have a valid SSL certificate.
 
 General
 -------
