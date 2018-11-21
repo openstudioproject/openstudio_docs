@@ -9,9 +9,9 @@ Below are the steps to upgrade OpenStudio 2017 (and later), for example from ver
 #. In case you don't have to upgrade the web2py installation, just remove the OpenStudio app using the web2py admin interface.
 #. Extract the latest OpenStudio version in the web2py applications folder.
 #. Next edit the application in the admin interface and edit appconfig.ini in the private folder to connect OpenStudio to the existing database.
-#. Copy the databases and uploads folders from your web2py/applications/OpenStudio_backcup to the web2py/applications/OpenStudio.
-#. Visit your openstudio url and add /upgrade at the end. *eg http://demo.openstudioproject.com/upgrade*
+#. Copy the databases folder, uploads folder and custom folders in views/templates from your web2py/applications/<OpenStudio_backup> to web2py/applications/<OpenStudio updated>.
+#. Visit your openstudio url and add /upgrade at the end. *eg https://demo.openstudioproject.com/upgrade*
 #. Open the OpenStudio url and you should be able to log in to the new version.
 
 
-*In case you need help, professional support is offered.*
+*In case you need help, paid support is offered.*

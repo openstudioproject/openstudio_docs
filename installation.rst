@@ -3,6 +3,15 @@ Installation
 
 This is a short guide to get OpenStudio running as quickly as possible. This setup is not recommended for production usage. For production usage you'd want to use something like nginx together with uwsgi.
 
+General
+-------
+
+**A note about time**
+
+OpenStudio assumes system time is set to UTC and the timezone will be configured in Settings - System - General.
+All (date)times in scheduled tasks are also set in UTC.
+
+
 Database
 --------
 
@@ -37,17 +46,17 @@ That's it, now test the database by connecting using the command-line tool.
 
 If all goes well, you'll see the mysql> prompt again. Then exit the mysql command-line tool and resume with the next step. If you got an error message, troubleshoot and solve it before moving on.
 
-Python 2.7.x
+Python 2.7
 ------------
 
-If you're running a Linux distribution, it's very likely that a recent python 2.7 version has already been installed. Check it by opening a terminal and typing python. 
+If you're running a Linux distribution, it's very likely that a recent python 2.7 version has already been installed. Check it by typing 'python' in the terminal. 
 
-For Windows you can use Python 2.7.9 (or later), pip ships with this version (get it from www.python.org).
+For Windows you can use Python 2.7.12 (or later), pip ships with this version (get it from www.python.org).
 
-For MacOS it's likely there's already a python installation, but it might be old if you're running a version before 10.6. So you might want to use macports to install the python27 port. (www.macports.org)
-I wouldn't recommend updating the system installed python version. Then you can use pip or easy_install to install the packages needed. Open a terminal and type "pip install <packagename>" or type "easy_install <packagename>". If you installed a new python version, just make sure that you're using the pip or easy_install for the right version.
+For MacOS it's likely there's already a python installation, but it might be old if you're running an older version of MacOS. So you might want to use macports (or whatevery way you prefer) to install the python27 port. (www.macports.org)
+Updating the system installed python version is not recommended. 
 
-When you've got python up and running, use your preferred package manager (eg. pip) to intall the modules mentioned under prerequisites in this manual.
+Once python is ready to go, use pip or easy_install (or whatever way you want) to install the required python packages. Open a terminal and type "pip install <packagename>" or type "easy_install <packagename>". If you installed a new python version, make sure that you're using the pip or easy_install for the right version.
 
 
 Web2py
