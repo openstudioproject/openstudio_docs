@@ -47,7 +47,7 @@ For Windows you can use Python 2.7.9 (or later), pip ships with this version (ge
 For MacOS it's likely there's already a python installation, but it might be old if you're running a version before 10.6. So you might want to use macports to install the python27 port. (www.macports.org)
 I wouldn't recommend updating the system installed python version. Then you can use pip or easy_install to install the packages needed. Open a terminal and type "pip install <packagename>" or type "easy_install <packagename>". If you installed a new python version, just make sure that you're using the pip or easy_install for the right version.
 
-When you've got python up and running, use your preferred package manager to intall the modules mentioned under prerequisites in this menual.
+When you've got python up and running, use your preferred package manager (eg. pip) to intall the modules mentioned under prerequisites in this manual.
 
 
 Web2py
@@ -118,3 +118,15 @@ For version 2.05 and newer, the default username and password are admin@openstud
 For version 3.0 and newer, the default username and password are admin@openstudioproject.com and OSAdmin1#.
 
 Now you're ready to start.
+
+
+Troubleshooting
+---------------
+
+In case you see an error like the one below, please check that the python interpreter you're using to run OpenStudio can find the python modules mentioned in the system requirements.
+
+.. code-block:: python 
+
+    "Cannot import module 'applications.openstudio.modules.pytz'"
+
+
