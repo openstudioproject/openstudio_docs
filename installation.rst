@@ -11,6 +11,10 @@ General
 OpenStudio assumes system time is set to UTC and the timezone will be configured in Settings - System - General.
 All (date)times in scheduled tasks are also set in UTC.
 
+**A note about operating systems**
+
+OpenStudio is developed and tested on Linux. In theory Windows and MacOS should be able to serve as a hosting platform as well. On paper all components should be compatible. Though note that this is untested and unsupported, so your mileage may vary.
+
 
 Database
 --------
