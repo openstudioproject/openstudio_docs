@@ -51,7 +51,7 @@ You might want to have a look at `Let's Encrypt <https://letsencrypt.org/>`_ and
 * openpyxl
 * html2text
 * pytz
-* redis
+* redis (2.10.6)
 * mollie-api-python (2.x)
 * weasyprint (0.42.3)
 * Pillow
@@ -65,7 +65,7 @@ You might want to have a look at `Let's Encrypt <https://letsencrypt.org/>`_ and
 * openpyxl
 * html2text
 * pytz
-* redis
+* redis (2.10.6)
 * mollie-api-python 1.4.2 (not compatible with 2.x)
 * weasyprint (0.42.3)
 * Pillow
