@@ -33,7 +33,7 @@ For a production system, this is probably the best choice.
 
 * Python 2.7 (Not Python 3)
 * MySQL 5.5 or later database
-* Redis server
+* Redis server (Tested using version shipped with Ubuntu 18.04 - 4.0.9-1)
 * Web2py (http://www.web2py.com)
 
 
