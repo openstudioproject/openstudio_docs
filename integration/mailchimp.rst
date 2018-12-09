@@ -11,11 +11,11 @@ Please be aware that it's not possible to manually subscribe customers to mailin
 
 Prerequisites
 -------------
-Before setting up MailChimp integratio in OpenStudion, make sure you have the following things ready. In case you can't find them, refer to the MailChimp knowledgebase or contact MailChimp support.
+Before setting up MailChimp integration in OpenStudion, make sure you have the following things ready. In case you can't find them, refer to the MailChimp knowledgebase or contact MailChimp support.
 
-*. Your MailChimp username
-*. Your MailChimp API key
-*. The MailChimp *list_id* of any lists you would like your customers to be able to sign up for from OpenStudion
+#. Your MailChimp username
+#. Your MailChimp API key
+#. The MailChimp *list_id* of any lists you would like your customers to be able to sign up for from OpenStudion
 
 
 Setup
@@ -23,7 +23,7 @@ Setup
 
 **Entering the username and API key**
 
-    1. Log in with an user account having admin privileges in OpenStudion
+    1. Log in with an user account having admin privileges in OpenStudio
     2. Go to settings - Integration - MailChimp
     3. Enter your username and API key and Save
 
