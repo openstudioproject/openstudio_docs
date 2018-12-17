@@ -47,10 +47,16 @@ key
 
     Classes
         [Int] Number of Classes
+    Description
+        [String] Subscription Description
+    LinkShop
+        [String] URL to subscription page in OpenStudio shop
     Name
         [String] Subscription Name
     Price
         [Float] Subscription Price
+    SortOrder
+        [int] Subscription sorting order
     SubscriptionUnit
         [String] 'week' or 'month' / unit to define number of Classes
     Unlimited

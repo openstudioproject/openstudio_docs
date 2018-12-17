@@ -85,7 +85,7 @@ Windows
 
 Extract the OpenStudio release archive (zip or tar.gz) to the applications folder in your web2py installation.
 
-Open a web browser and browse to http://localhost:8000, now you should have OpenStudio in the list of Installed applications on the left of the page. Click the manage button next to OpenStudio and select Edit from the drop down list that appears. In the models section of the edit page, click Edit to the left of appconig.ini under private. Here is a line that needs to be edited. 
+Open a web browser and browse to http://localhost:8000, now you should have OpenStudio in the list of Installed applications on the left of the page. Click the manage button next to OpenStudio and select Edit from the drop down list that appears. In the models section of the edit page, click Edit to the left of appconfig.ini under private. Here is a line that needs to be edited. 
 
 .. code:: 
 
@@ -94,6 +94,7 @@ Open a web browser and browse to http://localhost:8000, now you should have Open
 In a previous step we created a MySQl database to hold all the information. The uri option in this file tells OpenStudio how to connect to the MySQL database.
 If you installed the MySQL server on the same computer, you can use 'localhost' as the server name.
 After editing the file, scroll to the top of the page and save the file (you can also use Ctrl+S). 
+Web2py will need to be restarted after editing appconfig.ini, the settings are only read when the framework is started.
 
 Starting from version 2.07 Javascript (AJAJ) is used more to make the interface more user friendly. However to make it work, you should use a routes.py file in your web2py root folder to be able to run openstudio from an url like "http://demo.openstudioproject.com". The url shouldn't have the app name in it, a url like "http://localhost:8000/OpenStudio" will cause problems.
 The *routes.py* file can look like this for example:
