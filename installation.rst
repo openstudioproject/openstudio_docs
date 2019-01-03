@@ -146,9 +146,9 @@ Now we need to download and extract the OpenStudio release archive (zip or tar.g
     mv openstudio-2018.84.2 openstudio
     
 
-Now you can start web2py by opening a terminal and browsing to the directory you extracted web2py in. Then open a terminal and using python run web2py.
+Now you can start web2py by opening a terminal and browsing to the directory you extracted web2py in and then using python run web2py.
 
-Linux and Mac OS
+To start web2py on Ubuntu Linux, issue the following commands:
 
 .. code-block:: bash
 
