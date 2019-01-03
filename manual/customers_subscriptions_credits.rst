@@ -18,7 +18,7 @@ The following fields for a school subscription define credit behavior
 
 **Reconciliation classes**
     Like in the example above, some months might have 5 Mondays, so 4.4 credits isn't enough. The field *Reconciliation classes* allows you to define now many negative credits a customer can accumulate on this subscription. Or in other words, how many classes customers can attend on this subscription without having credits.
-    Looking at a whole year, customers will get enough credits, but might have a temporary shortage depending on the number of Mondays, Thuesdays, etc. in a month. 
+    Looking at a whole year, customers will get enough credits, but might have a temporary shortage depending on the number of Mondays, Tuesdays, etc. in a month. 
 
 **Credits validity (days)**
     Number of days subscription credits will be valid. Think of it like the minutes on your phone subscription, when they're not used within a certain period, they expire and can no longer be used.
