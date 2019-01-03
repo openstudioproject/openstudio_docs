@@ -1,7 +1,8 @@
 Installation
 =============
 
-This is a short guide to get OpenStudio running on Ubuntu 18.04.1 LTS Desktop as quickly as possible. This setup is not recommended for production usage. For production usage you'd want to use something like nginx together with uwsgi and make sure you have a valid SSL certificate.  *** Using this system without HTTPS will transmit unencrypted (easily interceptable and readable) information over the networks between you and the computer hosting the application. ***
+This is a short guide to get OpenStudio running on Ubuntu 18.04.1 LTS Desktop as quickly as possible. This setup is not recommended for production usage. For production usage you'd want to use something like nginx together with uwsgi and make sure you have a valid SSL certificate. 
+** Using this system without HTTPS will transmit unencrypted (easily interceptable and readable) information over the networks between you and the computer hosting the application. **
 
 General
 -------
@@ -16,7 +17,7 @@ All (date)times in scheduled tasks are also set in UTC.
 OpenStudio is developed and tested on Linux. In theory Windows and MacOS should be able to serve as a hosting platform as well. On paper all components should be compatible. Though note that this is untested and unsupported, so your mileage may vary.
 
 Operating System
---------
+----------------
 
 This installation manual is based specifically on deployment to Ubuntu 18.04.1 LTS Desktop which can be located here: https://www.ubuntu.com/download/desktop .  The Desktop distribution is used to simplify initial administration of Web2Py server which REQUIRES a secure connection either locally, remotely over SSH tunnel or HTTPS.  SSH tunnels and HTTPS are not covered in this manual.  Install said operating system to a computer or virtual machine before proceeding to follow these instructions.
 
@@ -51,10 +52,12 @@ Then create a database for OpenStudio, in this example the database name openstu
     
 The output should look something like this assuming your linux username is 'user':
 
+.. code-block:: bash
+
     mysql> create database openstudio_db;
         Query OK, 1 row affected (0.00 sec)
 
-    mysql> grant all privileges on openstudio_db.* to 'user'@'localhost' identified by 'C0mplexPa55!';    
+    mysql> grant all privileges on openstudio_db.* to 'user'@'localhost' identified by 'password';    
         Query OK, 0 rows affected, 1 warning (0.01 sec)
 
     mysql> flush privileges;    
@@ -135,7 +138,12 @@ Now download web2py from www.web2py.com and extract it to a directory that's sui
     unzip web2py_src.zip
 
 
-Now we need to download and extract the OpenStudio release archive (zip or tar.gz) to the applications folder in your web2py installation.  After extraction we need to rename the extracted folder to 'openstudio'  If you neglect to rename the extracted folders, the special characters will prevent the application from being detected by web2py.  In order to do so in Ubuntu Linux, issue the following commands:
+**Please note that setting directory permissions to 777 should never be done in production**
+
+Now we need to download and extract the latest OpenStudio release archive (zip or tar.gz) to the applications folder in your web2py installation.  The latest release van be found here: https://github.com/openstudioproject/openstudio/releases  
+
+In this manual version 2018.84.2 will be assumed.
+After extraction we need to rename the extracted folder to 'openstudio'  If you neglect to rename the extracted folders, the special characters will prevent the application from being detected by web2py.  In order to do so in Ubuntu Linux, issue the following commands:
 
 
 .. code-block:: bash
