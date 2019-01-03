@@ -20,6 +20,7 @@ Welcome to OpenStudio's documentation!
     :caption: Manual
 
     manual/quickstart
+    manual/customers
     manual/customers_subscriptions_credits
     manual/access_classes
     manual/teacher_payments
