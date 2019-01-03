@@ -20,6 +20,7 @@ Welcome to OpenStudio's documentation!
     :caption: Manual
 
     manual/quickstart
+    manual/deployment_checklist.rst
     manual/customers
     manual/customers_subscriptions_credits
     manual/access_classes
@@ -34,7 +35,7 @@ Welcome to OpenStudio's documentation!
 
 .. toctree::
     :maxdepth: 2
-    :caption: API 
+    :caption: API
 
     api_v1
 
