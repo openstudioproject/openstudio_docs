@@ -105,7 +105,14 @@ Schedule
 2. Studio staff
 ---------------
 
-    To add a new staff schedule press the add button in the top-righthand corner. Choose a Location, Shift name (add under School -> Shift), Weekday, Start and End time, Startdate and Enddate. Afte that you can assign an employee to that shift. To add Employees see under School -> Employee.
+    In order to add a Staff Schedule, you need to define at least one shift in the system.
+    This can be done by clicking School -> Shift and click the +ADD button at
+    the top right corner of the screen.
+
+    To add a new staff schedule, Click Schedule -> Studio Staff.  Press the +ADD
+    button in the top-righthand corner. Choose a Location, Shift name, Weekday,
+    Start and End time, Startdate and Enddate. After that you can assign an
+    employee to that shift. To add Employees see under School -> Employee.
     On the main page you can manage the current shifts for the Studio staff.
 
 Customers

@@ -31,3 +31,7 @@ list or records that can be added to take advantage of OpenStudio's available fe
   You need at list 1 Location in order to schedule classes.
 
   You need only a name to describe each location you will schedule classes.
+
+4. Shifts - *Required*
+------------
+  You need at least one shift in order to schedule staff at Schedule -> Staff Schedule

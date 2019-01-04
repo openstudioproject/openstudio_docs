@@ -20,8 +20,9 @@ Welcome to OpenStudio's documentation!
     :caption: Manual
 
     manual/quickstart
-    manual/deployment_checklist.rst
+    manual/deployment_checklist
     manual/customers
+    manual/school
     manual/customers_subscriptions_credits
     manual/access_classes
     manual/teacher_payments
