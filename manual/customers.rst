@@ -81,9 +81,6 @@ Customers Record
 
     You can store a lot of information about your customers in OpenStudio.
 
-1. Information
-----------------
-
     - General information like name, address and comments.
     - Subscriptions
     - Class cards
@@ -95,7 +92,30 @@ Customers Record
     - Tasks (to-do list)
     - Invoices
 
-2. Pause A Subscription
+  1. Profile Tab
+  ----------------
+
+      From the profile tab you can store personal information about your customer.
+
+      To add a picture, Click the "Add Picture" link under the default picture.
+      Take note that your image file must not exceed 4MB in size.  You will
+      arrive at the Edit Picture page for the customer.  Click "Choose File"
+      and proceed to browse to an image file.  After you select an image file you
+      must click the Save button on the top right of the page to commit the image
+      to your customers profile.  After clicking Save click back, or click back
+      without clicking save to cancel the upload. In order to view the photo you
+      just uploaded the customer profile you will have to refresh (reload) the page.
+
+
+  2. Memberships Tab
+  ----------------
+
+      From the Memberships tab you can view, add and manage Memberships.  For more
+      information about memberships, see the School -> Memberships section of the Manual.
+
+
+
+ZZ. Pause A Subscription
 ------------------------
 
     To pause a subscription go to the edit page for a customer and then click the subscriptions link and then the "Pause" button for the subscription you wish to pause.
