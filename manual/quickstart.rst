@@ -94,6 +94,7 @@ Schedule
 
         - Green - Normal
         - Blue - Subteacher
+        - Red - Open / Sub teacher required 
         - Orange - Cancelled
 
 2. Studio staff
