@@ -90,13 +90,11 @@ Schedule
 ~~~~~~~~~~~~~~~~~~~~~
 
     For each class you can keep track of regular students using reservations, have a waitinglist for reservations, keep track of attendance and set the status of a particular class.
-    These statuses are:
+    In the schedule the status of a class is shown by a colored dot:
 
-        - Normal
-        - Subteacher
-        - Cancelled
-        - Open (no teacher)
-        - 4 Customers
+        - Green - Normal
+        - Blue - Subteacher
+        - Orange - Cancelled
 
 2. Studio staff
 ---------------
