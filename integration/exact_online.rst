@@ -4,9 +4,9 @@ Exact Online
 Summary
 -------
 
-The Exact Online integration is a one way system. It assumes all data originates from OpenStudio. The following information can be transferred from OpenStudio to Exact Online:
+The Exact Online (https://www.exact.com/us/solutions/financial-management/) integration is a one way system. It assumes all data originates from OpenStudio. The following information can be transferred from OpenStudio to Exact Online:
 
-- Invoices 
+- Invoices
 - Invoice items
 - Customers
 - Customers Bank accounts
@@ -35,7 +35,7 @@ Setup
 Complete these steps before actually linking OpenStudio to Exact Online
 
     #. Set the GLAaccount field for all OpenStudio sellables. Classes (prices), event tickets, class cards, subscriptions and memberships. The values of these fields should correspond to the correct General Ledger Account numbers of Exact Online.
-    #. Under Settings - Financial - Invoices - Groups, set the appropriate journal ID. 
+    #. Under Settings - Financial - Invoices - Groups, set the appropriate journal ID.
     #. Under Settings - Financial - Tax rates, edit each tax rate and set the appropriate Vat Code ID, as found in Exact Online.
     #. Under settings - Financial - Payment methods - edit each payment method and set the Accounting code to the payment methods ID as found in Exact Online.
 
@@ -47,4 +47,4 @@ Complete these steps before actually linking OpenStudio to Exact Online
     #. Click the green *Authorize* button and follow the steps until redirected back to OpenStudio
     #. Choose a default Division and click back
 
-The link between Exact Online and OpenStudio should be established. 
+The link between Exact Online and OpenStudio should be established.
