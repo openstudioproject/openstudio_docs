@@ -1,21 +1,21 @@
 System requirements
 ====================
 
-Please keep in mind that OpenStudio is a web application which needs more resources then a standard website. 
+Please keep in mind that OpenStudio is a web application which needs more resources then a standard website.
 
 Hardware
 -----------------
 
 **Minimum**
 
-- 2 (v)CPU cores* 
-- 2 GB of RAM 
-- 1 GB of free storage 
+- 2 (v)CPU cores*
+- 2 GB of RAM
+- 1 GB of free storage
 
 
 **Recommended**
 
-- 2 (v)CPU cores* 
+- 2 (v)CPU cores*
 - 4 GB of RAM
 - 10 GB of free storage
 - SSD storage
@@ -26,7 +26,7 @@ Hardware
 Hosting platform
 -----------------
 
-While in theory everything used to build OpenStudio should run on Windows and MacOS as well, it's only tested on Linux. 
+While in theory everything used to build OpenStudio should run on Windows and MacOS as well, it's only tested on Linux.
 For a production system, this is probably the best choice.
 
 **General**
@@ -41,7 +41,7 @@ For a production system, this is probably the best choice.
 
 * Nginx
 * uWSGI
-* SSL Certificate 
+* SSL Certificate
 
 You might want to have a look at `Let's Encrypt <https://letsencrypt.org/>`_ and support the project if you can.
 
@@ -56,6 +56,7 @@ You might want to have a look at `Let's Encrypt <https://letsencrypt.org/>`_ and
 * weasyprint (0.42.3)
 * Pillow
 * pybarcode
+* pyqrcode
 * qrcode
 * mailchimp3
 

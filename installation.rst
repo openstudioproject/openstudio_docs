@@ -104,6 +104,15 @@ Install Python 2.7 on Ubuntu Linux by issuing the following commands:
     sudo apt-get install python
     sudo apt-get install python-pip
 
+Install the following dependencies:
+
+.. code-block:: bash
+
+    sudo apt-get install libpango1.0-0
+    sudo apt-get install libcairo2
+    sudo apt-get install libpq-dev
+
+
 Install the following Python Modules:
 
 openpyxl, html2text, pytz, redis (2.10.6), mollie-api-python (2.x), weasyprint (0.42.3), Pillow, pybarcode, qrcode, mailchimp3
@@ -120,6 +129,7 @@ In order to install said modules in Ubuntu Linux, issue the following commands:
     sudo -H pip install weasyprint==0.42.3
     sudo -H pip install Pillow
     sudo -H pip install pybarcode
+    sudo -H pip install pyqrcode
     sudo -H pip install qrcode
     sudo -H pip install mailchimp3
 
