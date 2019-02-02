@@ -13,6 +13,7 @@ Welcome to OpenStudio's documentation!
     system_requirements
     web2py_versions
     installation
+    email_config
     update
 
 .. toctree::
