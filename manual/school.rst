@@ -72,7 +72,7 @@ the profile.
 
 
 3. Memberships
--------------
+----------------
 
     You can define memberships in OpenStudio which can be used give your customers access to
     Membership only products and benefits such as access to classes, subscriptions or class cards.
@@ -111,7 +111,7 @@ the profile.
 
 
 4. Subscriptions
--------------
+-----------------
 
     You can define Subscriptions in OpenStudio which can be used for monthly reoccuring
     charges for access to classes.  Subscriptions are structured like Class Cards,
@@ -210,10 +210,10 @@ the profile.
 
 
 5. Class Cards
--------------
+---------------
 
 6. Class Types
--------------
+---------------
 
 7. Locations
 -------------
@@ -228,7 +228,7 @@ the profile.
 -------------
 
 11. Practice Level
--------------
+------------------
 
 12. Discovery
 -------------

@@ -222,9 +222,9 @@ you'll need to configure you email server settings.
 Click the manage button next to OpenStudio and select Edit
 from the drop down list that appears. Near the bottom of the list in the Private
 Files section of the edit page, click Edit to the left of appconfig.ini
-  - Here are the lines that need to be edited:
+Here are the lines that need to be edited:
 
-  ; smtp address and credentials
+; smtp address and credentials
 [smtp]
 server = localhost:2525
 sender = OpenStudio | Dev <your@emailaddress.com>

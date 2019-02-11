@@ -14,9 +14,8 @@ Lists to Excel Spreadsheet format.
 
     Click the +Add button at the top right of the Customer List window.  In add
     customer popup, input the First Name, Last Name and email address of the student.
-      The email address will become their customer login username in case you
-      choose to have your customers participate in the use of OpenStudio.
-
+    The email address will become their customer login username in case you
+    choose to have your customers participate in the use of OpenStudio.
 
 2. Export Customer Data
 --------------------------------------------
@@ -109,7 +108,7 @@ Customers Record
 
 
   2. Memberships Tab
-  ----------------
+  --------------------
 
       From the Memberships tab you can view, add and manage Memberships.  For more
       information about memberships, see the School -> Memberships section of the Manual.
