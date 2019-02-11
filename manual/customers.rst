@@ -10,7 +10,7 @@ Lists to Excel Spreadsheet format.
 
 
 1. Adding Customers
--------------
+----------------------
 
     Click the +Add button at the top right of the Customer List window.  In add
     customer popup, input the First Name, Last Name and email address of the student.
@@ -27,7 +27,7 @@ Lists to Excel Spreadsheet format.
 
 
 3. Search for customers in list
--------------
+----------------------------------
 
     In order to more quickly and easily locate a customer from your customer list,
     you can begin typing the customers name in the search box near the top right
@@ -39,15 +39,16 @@ Lists to Excel Spreadsheet format.
     data when the list is merely filtered.
 
 4. # of records to view in Customer List
----------------
+------------------------------------------
 
     By default, lists display 10 records per page.  You can select between
     10, 15 or 25 records per page.  You can do so by clicking on the square button
     with eye symbol near the top of the page.
 
 
+
 5. Send e-mail
----------
+--------------
 
     Clicking on the envelop to the right side of a customer in the list will open
     a new email with the recipient email address already populated in the default
@@ -77,7 +78,7 @@ Lists to Excel Spreadsheet format.
 
 
 Customers Record
-=========
+=================
 
     You can store a lot of information about your customers in OpenStudio.
 

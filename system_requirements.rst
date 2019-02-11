@@ -71,5 +71,5 @@ You might want to have a look at `Let's Encrypt <https://letsencrypt.org/>`_ and
 * weasyprint (0.42.3)
 * Pillow
 * pybarcode
-* qrcode
+* pyqrcode
 * mailchimp3
