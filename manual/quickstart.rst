@@ -4,7 +4,8 @@ Quickstart
 
 Installation
 ==============
-    Please go to readthedocs for the latest installation manual
+    Please go to readthedocs for the latest installation manual.
+    readthedocs: https://readthedocs.org/projects/openstudio-docs/downloads/
 
 Getting Started
 =================
@@ -29,12 +30,15 @@ Getting Started
 3. Memberships, Subscriptions & Class Cards
 --------------------------------------------
 
-    Here you configure the different kinds of memberships, subscriptions and classcards offered by your school. 
+    Here you configure the different kinds of memberships, subscriptions and class cards offered by your school.
 
 4. Class Types
 ---------------
 
-    Here you can specify what types of classes are taught at your school. You should add at least one class type to be able to add classes later.
+    Here you can specify what types of classes are taught at your school.
+    You should add at least one class type to be able to add classes later.
+
+    You only need to specify a name for each class type, such as "Ballet", "Karate", "Method Acting" or "Hot Yoga"
 
 5. Locations
 -------------
@@ -49,7 +53,7 @@ Getting Started
 7. Holidays
 ------------
 
-    Need a break? For each location you can specify when you're having a holiday and OpenStudio wil automatically cancel all classes during that period.
+    Need a break? For each location you can specify when you're having a holiday and OpenStudio will automatically cancel all classes during that period.
 
 8. Languages
 --------------
@@ -59,7 +63,7 @@ Getting Started
 9. Practice Levels
 -------------------
 
-    This creates a list of levels that can be applied to customers and classes. For example you might want to keep track of whether customers should take introduction courses or not or whether certain classes are appropriate for them. 
+    This creates a list of levels that can be applied to customers and classes. For example you might want to keep track of whether customers should take introduction courses or not or whether certain classes are appropriate for them.
 
 10. Discovery
 -------------
@@ -74,7 +78,7 @@ Getting Started
 Schedule
 ========
 
-    Use the schedule to keep track of your classes, attendance for those classes, holidays and more. 
+    Use the schedule to keep track of your classes, attendance for those classes, holidays and more.
     Furthermore you can accept and decline substitute requests for classes and manage the schedule for Studio staff.
 
 1. Classes
@@ -83,7 +87,7 @@ Schedule
 1.1. Adding Classes
 ~~~~~~~~~~~~~~~~~~~
 
-    To add a new class to the schedule, click the add "Add a new class" on the right. 
+    To add a new class to the schedule, click the add "Add a new class" on the right.
     To quickly add similar classes, click the edit button (the one with the pencil icon) on the Schedule page and then use the duplicate link to duplicate the class. You'll be taken to an edit page of the duplicated class.
 
 1.2. Managing Classes
@@ -100,13 +104,20 @@ Schedule
 2. Studio staff
 ---------------
 
-    To add a new staff schedule press the add button in the top-righthand corner. Choose a Location, Shift name (add under School -> Shift), Weekday, Start and End time, Startdate and Enddate. Afte that you can assign an employee to that shift. To add Employees see under School -> Employee.
+    In order to add a Staff Schedule, you need to define at least one shift in the system.
+    This can be done by clicking School -> Shift and click the +ADD button at
+    the top right corner of the screen.
+
+    To add a new staff schedule, Click Schedule -> Studio Staff.  Press the +ADD
+    button in the top-righthand corner. Choose a Location, Shift name, Weekday,
+    Start and End time, Startdate and Enddate. After that you can assign an
+    employee to that shift. To add Employees see under School -> Employee.
     On the main page you can manage the current shifts for the Studio staff.
 
 Customers
 =========
 
-    You can store a lot of information about your customers in OpenStudio. 
+    You can store a lot of information about your customers in OpenStudio.
 
 1. Information
 ----------------
@@ -125,7 +136,7 @@ Customers
 2. Pause A Subscription
 ------------------------
 
-    To pause a subscription go to the edit page for a customer and then click the subscriptions link and then the "Pause" button for the subscription you wish to pause. 
+    To pause a subscription go to the edit page for a customer and then click the subscriptions link and then the "Pause" button for the subscription you wish to pause.
 
 Workshops
 =========
@@ -169,26 +180,26 @@ Settings
 
     General settings
 
-    Separate customers by location 
+    Separate customers by location
     In case you have multiple physical locations where you teach, you might want to keep track of which customer is attending classes where. By turning this option on, an extra dropdown box appears in the customers edit pages and collection & payment export pages allowing selection of the location.
-    Show welcome message 
+    Show welcome message
     In case you want to turn the welcome message back on, you can do so here.
-    Currency 
+    Currency
     This is used in the csv export for collection and payment with customers. Add the 3 letters specifying the currency, eg. EUR, USD, GBP, KRW, etc.
-    Date format 
+    Date format
     Choose how dates are displayed.
 
 2. Permissions
 ---------------
 
     Starting with OpenStudio 2.05 a group based permissions model is available in OpenStudio. This model allows you to determine who can see/edit what.
-    It's basic structure is like this: 
+    It's basic structure is like this:
     A user is a member of a group. A group has permissions assigned to it which determine what the members of the group can see and edit.
 
     First go to settings --> users & groups --> groups and add a new group.
     Once the group is added, you'll see a permissions link for that group in the groups list. By clicking that link you can set which permissions that group has.
     The next step is to add a user to that group.
-    Go to preferences --> users & groups --> users and select a user. Then click the group link left of the edit button. In the menu shown now you can select a group to add the user to. 
+    Go to preferences --> users & groups --> users and select a user. Then click the group link left of the edit button. In the menu shown now you can select a group to add the user to.
 
     Please note that the group 'admin' always has full access to everything.
 
