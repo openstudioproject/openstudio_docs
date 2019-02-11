@@ -13,7 +13,6 @@ The Exact Online (https://www.exact.com/us/solutions/financial-management/) inte
 - Customers Bank account mandates
 
 
-
 Prerequisites
 -------------
 
@@ -42,9 +41,25 @@ Complete these steps before actually linking OpenStudio to Exact Online
 **Establish link**
 
     #. Log in with an user account having admin privileges in OpenStudio
-    #. Go to settings - Integration - Exact Online
+    #. Go to Settings - Integration - Exact Online
     #. Enter data prepared in Prerequisites and click save
     #. Click the green *Authorize* button and follow the steps until redirected back to OpenStudio
     #. Choose a default Division and click back
 
 The link between Exact Online and OpenStudio should be established.
+
+**Add scheduler task**
+
+The *exact_online_sync_invoices* function should run regularly to sync invoices to Exact. It'll check for new invoices and updated invoices. Every 20 - 30 minutes seems to be a sensible value for many installations.
+
+    #. Log in using the admin account (with user id 1)
+    #. Go to Settings - Sysadmin - Scheduler
+    #. Add a new task, fill out information as fit for your installation, but make sure to choose the function *exact_online_sync_invoices*. 
+    #. Save verify the task is running as expected using the tab *Run log* under the *Scheduler* tab.
+
+** Debugging **
+
+OpenStudio logs errors for the integration. To view this log:
+
+    #. Go to Settings - Integration - Exact Online
+    #. Click the tools button (button with the wrench icon) and select *Integration log*
