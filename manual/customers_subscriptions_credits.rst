@@ -28,7 +28,7 @@ Adding credits for all subscriptions
 ------------------------------------
 After settings the fields above for all appropriate subscriptions under school and adding subscriptions to customers, it's possible to add credits to all subscriptions for the selected month in one go.
 
-Go to customers in the main menu and select *Subscription credits*. Select the tab *Added credits*. After choosing the month for which credits should be added, click the *Add* button in the top right and choose *Continue*. This operation might take a few minutes, when there are a few hundred (or more) subscriptions.
+Go to automation in the main menu and select *Customer subscriptions*. Click the *Add credits* button. After choosing the month for which credits should be added, click the *Add credits* button in the top right and wait a short while. This operation might take a few minutes when there are a few hundred (or more) subscriptions.
 The operation will continue in the background, you can continue working as usual. After a few minutes you can come back or refresh the page to get a status update.
 
 
