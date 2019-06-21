@@ -45,6 +45,20 @@ For a production system, this is probably the best choice.
 
 You might want to have a look at `Let's Encrypt <https://letsencrypt.org/>`_ and support the project if you can.
 
+**Python Modules v2019.01 and later**
+
+* openpyxl
+* html2text
+* pytz
+* redis (3.2.1)
+* mollie-api-python (2.x)
+* weasyprint (0.42.3)
+* Pillow
+* pybarcode
+* pyqrcode
+* qrcode
+* mailchimp3
+
 
 **Python Modules v2018.82 and later**
 
