@@ -89,20 +89,15 @@ We need to install the database cashing server.  This can be done in Ubuntu Linu
 For Windows or Mac OS, you can download Redis Server from https://redis.io/download  Follow the application vendors instsructions for installing and running Redis on Windows or Mac.
 
 
-Python 2.7
+Python 3
 ------------
 
-For Windows you can use Python 2.7.12 (or later), pip ships with this version (get it from www.python.org).
+For Windows you can use Python 3.4 (or later), pip ships with this version (get it from www.python.org).
 
-For MacOS it's likely there's already a python installation, but it might be old if you're running an older version of MacOS. So you might want to use macports (or whatever way you prefer) to install the python27 port. (www.macports.org)
+For MacOS it's likely there's already a python installation, but it might be old in case you're running an older version of MacOS. So you might want to use macports (or whichever method you prefer) to install the python3.6 port. (www.macports.org)
 Updating the system installed python version is not recommended and you are doing so at your own risk.
 
-Install Python 2.7 on Ubuntu Linux by issuing the following commands:
-
-.. code-block:: bash
-
-    sudo apt-get install python
-    sudo apt-get install python-pip
+A sufficiently up to date Python 3 version is shipped by default in Ubuntu Linux.
 
 Install the following dependencies:
 
@@ -113,55 +108,54 @@ Install the following dependencies:
     sudo apt-get install libpq-dev
 
 
-Install the following Python Modules:
-
-openpyxl, html2text, pytz, redis (2.10.6), mollie-api-python (2.x), weasyprint (0.42.3), Pillow, pybarcode, qrcode, mailchimp3
-
-In order to install said modules in Ubuntu Linux, issue the following commands:
-
-.. code-block:: bash
-
-    sudo -H pip install openpyxl
-    sudo -H pip install html2text
-    sudo -H pip install pytz
-    sudo -H pip install redis==2.10.6
-    sudo -H pip install mollie-api-python==2.0.6
-    sudo -H pip install weasyprint==0.42.3
-    sudo -H pip install Pillow
-    sudo -H pip install pybarcode
-    sudo -H pip install pyqrcode
-    sudo -H pip install qrcode
-    sudo -H pip install mailchimp3
-
-
 Web2py
 ------
 
-Now download web2py from www.web2py.com and extract it to a directory that's suitable for you.  In this example I'll use a seperate folder in the Home Directory called www-dev
+Now download web2py from www.web2py.com and extract it to a directory that's suitable for you.  In this example I'll use a seperate folder in the Home Directory called www-data
 
 .. code-block:: bash
 
-    sudo mkdir /home/www-dev
-    sudo chmod 777 /home/www-dev
-    cd /home/www-dev
+    sudo mkdir /home/www-data
+    sudo chmod 777 /home/www-data
+    cd /home/www-data
     wget https://mdipierro.pythonanywhere.com/examples/static/web2py_src.zip
     unzip web2py_src.zip
 
 
-**Please note that setting directory permissions to 777 should never be done in production**
+**Please note that setting directory permissions to 777 should NEVER EVER be done in production**
 
 Now we need to download and extract the latest OpenStudio release archive (zip or tar.gz) to the applications folder in your web2py installation.  The latest release van be found here: https://github.com/openstudioproject/openstudio/releases
 
-In this manual version 2018.84.2 will be assumed.
-After extraction we need to rename the extracted folder to 'openstudio'  If you neglect to rename the extracted folders, the special characters will prevent the application from being detected by web2py.  In order to do so in Ubuntu Linux, issue the following commands:
+In this manual version 2019.08 will be assumed.
+After extraction we need to rename the extracted folder to 'openstudio'  If you neglect to rename the extracted folders, the special characters mightprevent the application from being detected by web2py.  In order to do so in Ubuntu Linux, issue the following commands:
 
 
 .. code-block:: bash
 
-    cd /home/www-dev/web2py/applications
+    cd /home/www-data/web2py/applications
     wget https://github.com/openstudioproject/openstudio/archive/v2018.84.2.zip
-    unzip v2018.84.2.zip
-    mv openstudio-2018.84.2 openstudio
+    unzip v2019.08.zip
+    mv openstudio-2019.08 openstudio
+
+
+
+*Install the required following Python Modules*
+
+Virtual envs are highly recommended to manage your Python packages. 
+virtualenvwrapper is a big help here, please have a look at their awesome docs.
+https://virtualenvwrapper.readthedocs.io/en/latest/
+
+
+Before actually installing the modules, the weasyprint module requires some additional packages. 
+Please have a look at their excellent documentation and install the required packages for your system:
+https://weasyprint.readthedocs.io/en/latest/install.html
+
+
+.. code-block:: bash
+
+    cd openstudio
+    workon <your virtualenv name here>
+    pip install -r requirements.txt
 
 
 Now you can start web2py by opening a terminal and browsing to the directory you extracted web2py in and then using python run web2py.
@@ -170,19 +164,19 @@ To start web2py on Ubuntu Linux, issue the following commands:
 
 .. code-block:: bash
 
-    cd /home/www-dev/web2py
+    cd /home/www-data/web2py
     python web2py.py -a <choose a password>
 
 Windows
 
 .. code::
 
-    c:\python27\python.exe web2py.py -a <choose a password>
+    c:\python<version here>\python.exe web2py.py -a <choose a password>
 
 
 Open a web browser ON THE HOST COMPUTER (this is why we've installed desktop gui in this guide) and browse to http://localhost:8000  Now click on the hamburger button (The three horizontle lines for menu) on the top right of the page and click 'My Sites'.  You should have openstudio in the list of Installed applications on the left of the page.  If you don't, check that the directory name of the openstudio folder under /web2py/applications/ doesn't have any special characters in it and restart web2py.
 
-Click the manage button next to OpenStudio and select Edit from the drop down list that appears. Near the bottom of the list in the Private Files section of the edit page, click Edit to the left of appconfig.ini  - Here is a line that needs to be edited.
+Click the manage button next to openStudio and select Edit from the drop down list that appears. Near the bottom of the list in the Private Files section of the edit page, click Edit to the left of appconfig.ini  - Here is a line that needs to be edited.
 
 .. code::
 
@@ -196,7 +190,7 @@ If already started, Web2py will need to be restarted after editing appconfig.ini
 
 At this stage the application is available for login from the host computer at http://localhost:8000/openstudio - HOWEVER, it is liable to malfunction unpredictably until you configure a routes.py file.  By default, when web2py runs, it binds to 127.0.0.1.  If you want to be able to access the application remotely from the host computer, you need to start web2py with additional argument -i {ip address}.  You can define the binding port with -p {port number}.  You cannot administrate your sites in web2py admin unless you are running it localhost and access from same computer or remote computer via SSH tunnel OR bind to a routeable IP and access using HTTPS.
 
-Starting from version 2.07 Javascript (AJAJ) is used more to make the interface more user friendly. However to make it work, you should use a routes.py file in your web2py root folder to be able to run openstudio from an url like "http://demo.openstudioproject.com". The url shouldn't have the app name in it, a url like "http://localhost:8000/OpenStudio" will cause problems.
+Starting from version 2.07 Javascript (AJAJ) is used more to make the interface more user friendly. However to make it work, you should use a routes.py file in your web2py root folder to be able to run openstudio from an url like "http://demo.openstudioproject.com". The url shouldn't have the app name in it, a url like "http://localhost:8000/openstudio" will cause problems.
 The *routes.py* file can look like this for example:
 
 .. code-block:: python
@@ -256,7 +250,7 @@ Now you're ready to start.
 Troubleshooting
 ---------------
 
-In case you see an error like the one below, please check that the python interpreter you're using to run OpenStudio can find the python modules mentioned in the system requirements.
+In case you see an error like the one below or similar, please check that the python interpreter you're using to run OpenStudio can find the python modules mentioned in the system requirements and you've activated the right virtual environment.
 
 .. code-block:: python
 
