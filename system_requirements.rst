@@ -52,7 +52,7 @@ Install requirements using
 *pip install -r requirements.txt*
 
 requirements.txt is found in the root of the OpenStudio application folder. Using a virtual environment is highly recommended.
-Virtualenvwrapper is  abig help when managing your virtual envs. https://virtualenvwrapper.readthedocs.io/en/latest/
+Virtualenvwrapper is a big help when managing your virtual envs. https://virtualenvwrapper.readthedocs.io/en/latest/
 
 **Python Modules v2019.01 and later**
 
