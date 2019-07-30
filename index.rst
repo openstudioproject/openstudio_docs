@@ -33,7 +33,6 @@ Welcome to OpenStudio's documentation!
     :caption: Integration
 
     integration/mailchimp
-    integration/exact_online
 
 .. toctree::
     :maxdepth: 2
