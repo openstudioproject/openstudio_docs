@@ -10,10 +10,10 @@ workshops_get
     Calls can be made as JSON and as XML. Both return the same data, just formatted according to the call you make.
 
         JSON    
-            https://<hosting location>/api/schedule_get.json
+            https://<hosting location>/api/workshops_get.json
 
         XML     
-            https://<hosting location>/api/schedule_get.xml
+            https://<hosting location>/api/workshops_get.xml
     
 1.1 Mandatory Variables
 ------------------------
