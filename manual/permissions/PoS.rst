@@ -5,10 +5,6 @@ This page lists the minimum required features for the Point of Sale (PoS) featur
 All items in the tree below should be checked.
 
 
-Customers
-----------------------
-
-
 - Customers
     - View customers
         - Add customers
