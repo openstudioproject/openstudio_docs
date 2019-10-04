@@ -27,6 +27,7 @@ Welcome to OpenStudio's documentation!
     manual/customers_subscriptions_credits
     manual/access_classes
     manual/teacher_payments
+    manual/permissions
 
 .. toctree::
     :maxdepth: 1
