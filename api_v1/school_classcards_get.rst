@@ -45,6 +45,8 @@ school_classcards_get
     	[Int] Number of classes
     Description
     	[String] Card description
+    LinkShop
+        [String] URL to subscription page in OpenStudio shop
     Name	
         [String] Card name
     Price
