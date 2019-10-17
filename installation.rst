@@ -111,7 +111,7 @@ Install the following dependencies:
 Web2py
 ------
 
-Now download web2py from www.web2py.com and extract it to a directory that's suitable for you.  In this example I'll use a seperate folder in the Home Directory called www-data
+Now download web2py from www.web2py.com and extract it to a directory that's suitable for you.  In this example we'll use a seperate folder in the Home Directory called www-data
 
 .. code-block:: bash
 
