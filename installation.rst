@@ -92,7 +92,7 @@ For Windows or Mac OS, you can download Redis Server from https://redis.io/downl
 Python 3
 ------------
 
-For Windows you can use Python 3.4 (or later), pip ships with this version (get it from www.python.org).
+For Windows you can use Python 3.6 (or later), pip ships with this version (get it from www.python.org).
 
 For MacOS it's likely there's already a python installation, but it might be old in case you're running an older version of MacOS. So you might want to use macports (or whichever method you prefer) to install the python3.6 port. (www.macports.org)
 Updating the system installed python version is not recommended and you are doing so at your own risk.
