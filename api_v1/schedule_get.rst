@@ -112,7 +112,7 @@ Example calls
     BookingOpen
         [Date] Date from which bookings for this class will be accepted (YYYY-MM-DD)
     BookingStatus
-        [String] Booking status
+        [String] Booking status. One of "ok", "full", "not_yet_open", "ongoing", "cancelled" or "finished".
     BookingSpacesAvailable
         [String] Available spaces for online booking 
     Cancelled
