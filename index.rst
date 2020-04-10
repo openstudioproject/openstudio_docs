@@ -25,6 +25,7 @@ Welcome to OpenStudio's documentation!
     manual/customers
     manual/school
     manual/customers_subscriptions_credits
+    manual/schedule
     manual/access_classes
     manual/teacher_payments
     manual/permissions
