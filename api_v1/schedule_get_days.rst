@@ -141,8 +141,10 @@ schedule_get_days
         [String] ID of classtype
     Link
         [String] URL to classtype page on website (optional)
+    LinkImage
+        [String] URL to picture for class (original size)
     LinkThumbLarge
-        [String] URL to larg thumbnail for class (400px*400px)
+        [String] URL to large thumbnail for class (400px*400px)
     LinkThumbSmall
         [String] URL to small thumbnail for class (50px*50px)
     Name

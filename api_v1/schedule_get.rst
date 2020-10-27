@@ -77,6 +77,8 @@ Example calls
         [String] ID of classtype
     Link
         [String] URL to classtype page on website (optional)
+    LinkImage
+        [String] URL to picture for class (original size)
     LinkThumbLarge
         [String] URL to larg thumbnail for class (400px*400px)
     LinkThumbSmall
