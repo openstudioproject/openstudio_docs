@@ -38,6 +38,8 @@ Optional variables
         If specified, only returns classes for the specified location
     LevelID
         If specified, only return classes with the specified level
+    ScheduleTagID
+        If specified, only return classes with the specified tag
     SortBy
         Accepted values: 'location' and 'time'
             - **location** Sort by location and then time 
@@ -48,8 +50,8 @@ Example calls
 
     .. code-block:: bash
 
-        https://<hosting location>/api/schedule_get.json?user=test&key=test&week=1&year=2014
-        https://<hosting location>/api/schedule_get.xml?user=test&key=test&week=1&year=2014&TeacherID=1&ClassTypeID=1
+        https://<hosting location>/api/schedule_get.json?user=test&key=test&week=1&year=2021
+        https://<hosting location>/api/schedule_get.xml?user=test&key=test&week=1&year=2021&TeacherID=1&ClassTypeID=1
 
 2. Return
 =========
@@ -64,7 +66,9 @@ Example calls
 
         locations :sup:`3`
 
-        classes :sup:`4` 
+        tags :sup:`4`
+
+        classes :sup:`5` 
             Monday - Sunday
                 date (yyyy-mm-dd)
 
@@ -108,7 +112,15 @@ Example calls
     Name
         [String] Name of location
 
-4. The following data is provided for a class
+4. The following data is provided for tags
+------------------------------------------------
+
+    Id
+        [String] ID of tag
+    Name
+        [String] Name of tag
+
+5. The following data is provided for a class
 ----------------------------------------------
 
     BookingOpen
@@ -164,18 +176,3 @@ Example calls
         [String] ID of teacher
     TeacherID2
         [String] ID of second teacher
-
-    
-    
-    
-    
-        
-        
-        
-
-        
-
-        
-
-
-        

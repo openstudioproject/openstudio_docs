@@ -39,6 +39,8 @@ schedule_get_days
         If specified, only returns classes for the specified location
     LevelID
         If specified, only return classes with the specified level
+    ScheduleTagID
+        If specified, only return classes with the specified tag
     SortBy
         Accepted values: 'location' or 'time' 
 
@@ -51,9 +53,9 @@ schedule_get_days
 
     .. code-block:: bash
 
-        https:///api/schedule_get_days.xml?user=test&key=test&date_start=2016-01-01&date_end=2016-01-06
+        https:///api/schedule_get_days.xml?user=test&key=test&date_start=2021-01-01&date_end=2021-01-06
 
-        https:///api/schedule_get_days.xml?user=test&key=test&date_start=2016-01-01&date_end=2016-01-06&TeacherID=1&ClassTypeID=1
+        https:///api/schedule_get_days.xml?user=test&key=test&date_start=2021-01-01&date_end=2021-01-06&TeacherID=1&ClassTypeID=1
 
 2. Return
 ===========
@@ -74,6 +76,8 @@ schedule_get_days
         locations (list) :sup:`4`
 
         levels (list) :sup:`5`
+
+        tags (list) :sup:`6`
 
 1. The following data is provided for a class
 ----------------------------------------------
@@ -179,3 +183,11 @@ schedule_get_days
         [String] ID of level
     Name
         [String] Name of level
+
+6. the following data is provided for tags
+---------------------------------------------
+
+    Id
+        [String] ID of tag
+    Name
+        [String] Name of tag
